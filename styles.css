@@ -1,1 +1,46 @@
 /*  your css code here. If applicable */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f9f9f9;
+  margin: 0;
+} 
+
+.card {
+  width: 400px;
+  padding: 20px;
+  background: #f6f6f6;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  text-align: center;
+  border-radius: 5px;
+}
+
+.card h1 {
+  font-size: 48px;
+  margin: 15px 0 10px;
+}
+
+.card .price {
+  font-size: 20px;
+  margin: 5px 0;
+}
+
+.card .desc {
+  font-size: 18px;
+  max-width: 180px;
+  margin: 8px auto;
+  text-align: center;
+}
+
+.card button {
+  padding: 15px 30px;
+  background: #ff5e5e;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 15px;
+}
